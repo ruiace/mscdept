@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/msc-api/msc-api.iml" filepath="$PROJECT_DIR$/msc-api/msc-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/msc-consume-7001/msc-consume-7001.iml" filepath="$PROJECT_DIR$/msc-consume-7001/msc-consume-7001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/msc-consume-feign-7002/msc-consume-feign-7002.iml" filepath="$PROJECT_DIR$/msc-consume-feign-7002/msc-consume-feign-7002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/msc-eureka-5001/msc-eureka-5001.iml" filepath="$PROJECT_DIR$/msc-eureka-5001/msc-eureka-5001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/msc-eureka-5003/msc-eureka-5001 (1).iml" filepath="$PROJECT_DIR$/msc-eureka-5003/msc-eureka-5001 (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/msc-eureka-5002/msc-eureka-5002.iml" filepath="$PROJECT_DIR$/msc-eureka-5002/msc-eureka-5002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/msc-eureka-5003/msc-eureka-5003.iml" filepath="$PROJECT_DIR$/msc-eureka-5003/msc-eureka-5003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/msc-provide-6001/msc-provide-6001.iml" filepath="$PROJECT_DIR$/msc-provide-6001/msc-provide-6001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/msc-provide-6002/msc-provide-6002.iml" filepath="$PROJECT_DIR$/msc-provide-6002/msc-provide-6002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/msc-provide-6003/msc-provide-6003.iml" filepath="$PROJECT_DIR$/msc-provide-6003/msc-provide-6003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mscparent.iml" filepath="$PROJECT_DIR$/mscparent.iml" />
+    </modules>
+  </component>
+</project>

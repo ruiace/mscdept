@@ -1,0 +1,16 @@
+
+server:
+  port: 7003
+
+eureka:
+  client:
+    service-url:
+     #设置与eureka server 交互的地址查询服务和注册服务都需要依赖这个地址
+      #defaultZone: http://localhost:5001/eureka/
+      defaultZone:  http://eureka5001.com:5001/eureka/,http://eureka5002.com:5002/eureka/,http://eureka5003.com:5003/eureka/
+    register-with-eureka: true  #false 代表不向注册中心注册自己 也可以注册
+
+spring:
+  application:
+    name: msc-consume-feign-7003
+

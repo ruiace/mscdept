@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demo" />
+        <module name="msc-api" />
+        <module name="msc-consume-7001" />
+        <module name="msc-consume-feign-7002" />
+        <module name="msc-eureka-5001" />
+        <module name="msc-eureka-5001 (1)" />
+        <module name="msc-eureka-5002" />
+        <module name="msc-eureka-5003" />
+        <module name="msc-provide-6001" />
+        <module name="msc-provide-6002" />
+        <module name="msc-provide-6003" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
+      <module name="msc-api" target="1.8" />
+      <module name="msc-consume-7001" target="1.8" />
+      <module name="msc-consume-feign-7002" target="1.8" />
+      <module name="msc-eureka-5001" target="1.8" />
+      <module name="msc-eureka-5001 (1)" target="1.8" />
+      <module name="msc-eureka-5002" target="1.8" />
+      <module name="msc-eureka-5003" target="1.8" />
+      <module name="msc-provide-6001" target="1.8" />
+      <module name="msc-provide-6002" target="1.8" />
+      <module name="msc-provide-6003" target="1.8" />
+      <module name="mscparent" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

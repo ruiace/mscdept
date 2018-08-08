@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/msc-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/msc-consume-7001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/msc-consume-feign-7002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/msc-eureka-5001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/msc-eureka-5002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/msc-eureka-5003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/msc-provide-6001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/msc-provide-6002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/msc-provide-6003" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
