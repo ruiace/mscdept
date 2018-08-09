@@ -15,7 +15,7 @@ spring:
     name: msc-consume-feign-7002
 
 
-
-#feign:
-#  hystrix:
-#    enabled: true
+#服务降级
+feign:
+  hystrix:
+    enabled: true

@@ -5,7 +5,7 @@ server:
 
 spring:
   application:
-    name: msc-provide
+    name: msc-provide1
   datasource:
 #   数据源基本配置
     username: root

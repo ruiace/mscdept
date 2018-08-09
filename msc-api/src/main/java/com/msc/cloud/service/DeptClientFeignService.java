@@ -13,7 +13,7 @@ import java.util.List;
 /**
  * Created by JF on 2018/8/8.
  */
-@FeignClient("MSC-PROVIDE")
+@FeignClient(value = "MSC-PROVIDE",fallbackFactory = DeptClientServiceFallbackFactory.class)
 @Service
 public interface DeptClientFeignService {
 
