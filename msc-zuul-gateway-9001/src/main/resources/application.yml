@@ -1,0 +1,29 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: msc-zuul-getway-9001
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka5001.com:5001/eureka/,http://eureka5002.com:5002/eureka/,http://eureka5003.com:5003/eureka/
+  instance:
+    instance-id: gateway9001.com
+    prefer-ip-address: true
+
+
+# spring-boot-starter-actuator actuator监控信息完善
+info:
+  app.name: msc-zuul-gateway-9001
+  company.name: www.zhkonggu.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
+
+
+zuul:
+  #ignored-services: msc-provide # 不能用msc-provide路径请求
+  #prefix: /msc
+  ignored-services: "*" # 过滤掉其他项目的服务
+  routes:
+    my1dept.serviceId: msc-provide
+    my1dept.path: /dept/**

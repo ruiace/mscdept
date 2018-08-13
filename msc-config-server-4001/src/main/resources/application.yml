@@ -1,0 +1,11 @@
+server:
+  port: 4001
+
+spring:
+  application:
+    name:  msc-config-server-4001
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ruiace/config.git #GitHub上面的git仓库名字

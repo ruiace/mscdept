@@ -1,0 +1,59 @@
+server:
+  port: 6004
+
+
+
+spring:
+  application:
+    name: msc-provide
+  datasource:
+#   数据源基本配置
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/clouddb01
+    type: com.alibaba.druid.pool.DruidDataSource
+#   数据源其他配置
+    initialSize: 5
+    minIdle: 5
+    maxActive: 20
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: SELECT 1 FROM DUAL
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+#   配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙
+    #filters: stat,wall,log4j
+    filters: stat,wall
+    maxPoolPreparedStatementPerConnectionSize: 20
+    useGlobalDataSourceStat: true
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
+mybatis:
+  # 指定全局配置文件位置
+  config-location: classpath:mybatis/mybatis-config.xml
+  # 指定sql映射文件位置
+  mapper-locations:
+    - classpath:mybatis/mapper/*.xml
+  #entity别名类
+  type-aliases-package: com.msc.cloud.beans
+
+
+eureka:
+  client:
+    service-url:
+      #单机defaultZone: http://localhost:5001/eureka/ #设置与eureka server 交互的地址查询服务和注册服务都需要依赖这个地址
+      defaultZone: http://eureka5001.com:5001/eureka/,http://eureka5002.com:5002/eureka/,http://eureka5003.com:5003/eureka/
+  instance:
+    instance-id: msc-provide-6001 #走定义服务名称信息
+    prefer-ip-address: true #访问路径可以显示ip地址
+
+
+# spring-boot-starter-actuator actuator监控信息完善
+info:
+  app.name: msc-provide-6001
+  company.name: www.zhkonggu.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
